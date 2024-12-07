@@ -25,32 +25,32 @@
     },
     "weather": [
         {
-            "id": 803,
+            "id": 802,
             "main": "Clouds",
-            "description": "broken clouds",
-            "icon": "04n"
+            "description": "雲",
+            "icon": "03n"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 5.96,
-        "feels_like": 3.98,
-        "temp_min": 5.22,
-        "temp_max": 6.09,
+        "temp": 5.34,
+        "feels_like": 3.25,
+        "temp_min": 4.11,
+        "temp_max": 6.72,
         "pressure": 1013,
-        "humidity": 59,
+        "humidity": 66,
         "sea_level": 1013,
         "grnd_level": 999
     },
     "visibility": 10000,
     "wind": {
         "speed": 2.57,
-        "deg": 360
+        "deg": 350
     },
     "clouds": {
-        "all": 75
+        "all": 40
     },
-    "dt": 1733577340,
+    "dt": 1733580503,
     "sys": {
         "type": 2,
         "id": 2078606,
@@ -64,3 +64,14 @@
     "cod": 200
    }
    ```
+8. 収集データ説明
+
+- 上から順にざっくり説明すると、以下の通りになります。
+   (https://openweathermap.org/currentより抜粋)
+  - キー	説明
+  - coord	緯度、経度
+  - main	気温、湿度、気圧、最低気温、最高気温、etc
+  - wind	風速、風向き
+  - clouds	曇りの確率
+  - sys	国コードや日の出時刻、日の入り時刻 etc
+
