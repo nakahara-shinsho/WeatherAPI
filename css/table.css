@@ -2,6 +2,7 @@
   table.sticky-table thead tr[class*="fixed-header-"] th {
       position: -webkit-sticky; /* for Safari */
       position: sticky;
+      background-color: darkgray;
       /* tbody tdより手前に表示する */
       z-index: 1;
   }
@@ -16,6 +17,7 @@
   table.sticky-table tbody th[class*="fixed-column-"] {
       position: -webkit-sticky; /* for Safari */
       position: sticky;
+      background-color: darkgray;
       /* tbody tdより手前に表示する */
       z-index: 1;
   }
