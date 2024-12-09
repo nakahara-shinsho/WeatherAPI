@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>天気予報API</title>
+  <!-- 必要なメタタグ -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/table.css">
+  </head>
+
+  <body>
+    <!-- javascriptで得た結果を表示する場所 -->
+    <div class="table-wrapper">
+      <table class="table text-nowrap sticky-table table-borderless">
+          <thead class="thead-light">
+              <tr class="fixed-header-0">
+                  <th class="fixed-column-0">天気項目：</th>
+                  <th>温度(゜C)</th>
+                  <th>体感温度(゜C)</th>
+                  <th>湿度(%)</th>
+                  <th>気圧(hPa)</th>
+                  <th>風速(m/s)</th>
+                  <th>雲量(%)</th>
+                  <th>降水量(mm)</th>
+                  <th>積雪量(mm)</th>
+              </tr>
+          </thead>
+          <tbody>
+          </tbody>
+      </table>
+  </div>
+
+    <!-- 天気予報APIを参照するためのjavascript -->
+    <script src="tamaWeather.js"></script>
+  </body>
+
+</html>
