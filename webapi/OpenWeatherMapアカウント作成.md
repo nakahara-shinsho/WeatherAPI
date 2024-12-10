@@ -1,18 +1,19 @@
 OpenWeatherアカウント作成から天気データ取得まで
 
 1. [ウェブページ](https://home.openweathermap.org/users/sign_in) をクリックしてアクセスする
-　 ![サイン画面](images/singin.jpg)
+　 ![サイン画面](singin.jpg)
 
 2. 画面の[Create an Account]をクリックして、アカウントを作成する
-   ![アカウント作成画面](images/singin.jpg)
+   ![アカウント作成画面](singup.jpg)
 
 3. 「メール」と「パスワード」を入力して、I agree to the Terms of Service and Privacy Policy にチェックを入れ Create Account をクリック
 
 4. 目的を確認する画面に、[Company]欄に大学名を入れて、[Purpose]欄に、「Weather widget for web]を選択してクリック
-   ![alt text](images/purpose.png)
+
+   ![alt text](purpose.png)
 
 5. ログインにしたら、アカウント名->[My API Keys]をクリックして、下記のapi Key画面が表示される
-   ![api Key画面](images/apikey.jpg)
+   ![api Key画面](apikey.jpg)
 
 6. この画面の"Key"の下の文字列をコピーして、下記のURLのappidを書き換えて、
 　　https://api.openweathermap.org/data/2.5/weather?q=tama,jp&lang=ja&units=metric&lang=ja&appid=438531953753d6e4bb36354a22ba948a

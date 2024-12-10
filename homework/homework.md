@@ -9,7 +9,7 @@
 - API_key:
   - あなたのAPI KEY
 
-# 課題2： 郵便番号に指定する場所の天気情報を取得する
+# 課題2： 経度・緯度に指定する場所の天気情報を取得する
 - url = "https://api.openweathermap.org/data/2.5/weather?lat={緯度}&lon={経度}&units=metric&appid={API_key}"
 
 
@@ -19,8 +19,3 @@
 
 - API_key:
   - あなたのAPI KEY
-
-
-# 次回の課題予告：　下記のように設定画面で書いて、5分間、一日のデータグラフを作成する。
- 
-![alt text](image-1.png)

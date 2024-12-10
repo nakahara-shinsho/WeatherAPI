@@ -14,7 +14,7 @@
   }
   
   /*列ヘッダーを固定する。leftの値はjsで動的に指定*/
-  table.sticky-table tbody th[class*="fixed-column-"] {
+  table.sticky-table tbody th[class*="dynamic-column-"] {
       position: -webkit-sticky; /* for Safari */
       position: sticky;
       background-color: lightblue;

@@ -6,7 +6,7 @@
     <meta charset="utf-8"> <!-- 日本語文字コードを指定 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- IEのレンダリングモードを指定: 最新のIEのバージョンで表示 -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- ビューポートの設定: 設備の画面幅に合わせて表示 -->
-    <link rel="stylesheet" href="css/table.css">  <!-- テーブルのスタイルを指定 -->
+    <link rel="stylesheet" href="table.css">  <!-- テーブルのスタイルを指定 -->
   </head>
 
   <body>
@@ -16,7 +16,7 @@
       <table class="table text-nowrap sticky-table table-borderless">
           <thead class="thead-light">
               <tr class="fixed-header-0">
-                  <th class="fixed-column-0">項目：</th>
+                  <th class="fixed-column-0">現在時刻</th>
                   <th>温度(゜C)</th>
                   <th>体感温度(゜C)</th>
                   <th>湿度(%)</th>
@@ -27,7 +27,20 @@
                   <th>積雪量(mm)</th>
               </tr>
           </thead>
-          <tbody></tbody> <!-- javascriptで得た結果を表示するテーブルのtbodyタグ -->
+          <tbody>
+            <tr class="fixed-row-0"> <!--　行を作成する -->
+              <!--　ここからセルを追加する -->
+              <th class="dynamic-column-0 table-light">--</th>
+              <th class="dynamic-column-1 table-light">--</th>
+              <th class="dynamic-column-2 table-light">--</th>
+              <th class="dynamic-column-3 table-light">--</th>
+              <th class="dynamic-column-4 table-light">--</th>
+              <th class="dynamic-column-5 table-light">--</th>
+              <th class="dynamic-column-6 table-light">--</th>
+              <th class="dynamic-column-7 table-light">--</th>
+              <th class="dynamic-column-8 table-light">--</th>
+            </tr>
+          </tbody> <!-- javascriptで得た結果を表示するテーブルのtbodyタグ -->
       </table>
     </div>
 
