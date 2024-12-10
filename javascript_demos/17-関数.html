@@ -5,18 +5,20 @@
     <meta charset="utf-8"> <!-- 日本語文字コードを指定 -->
     <script>
       // 関数の宣言
-      function say_hello(){
-        document.write("こんにちは！");
+      function say_hello_to(name){
+        document.write(name+",こんにちは！");
       }
       // 関数の呼び出し
-      say_hello();
+      say_hello_to("田中さん");
+
+      //改行
+      document.write("<br>");
 
       //メソッドの宣言
       var user = {
         name: "山田太郎",
         age: 20,
         hello: function(){
-          document.write("<br>");
           document.write("こんにちは!!!！");
         }
       }
