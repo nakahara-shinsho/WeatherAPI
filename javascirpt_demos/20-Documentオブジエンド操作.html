@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!-- HTML5の文書であることを示す -->
+<html lang="ja"> <!-- 日本語のページであることを示す -->
+  <head>
+    <title>11-Javascript基本知識</title>
+    <meta charset="utf-8"> <!-- 日本語文字コードを指定 -->
+    
+  </head>
+  <body>
+    <div id="test" class="demo">テスト</div>
+    <script>
+      // Documentオブジェクトの操作
+      var test = document.getElementById("test");
+      test.style.color = "red";
+      test.style.fontSize = "20px";
+      test.style.backgroundColor = "yellow";
+
+      // // Documentオブジェクトの操作
+      // var test = document.getElementsByClassName("demo");
+      // test[0].style.color = "green";
+      // test[0].style.fontSize = "40px";
+      // test[0].style.backgroundColor = "gray";
+
+      // // Documentオブジェクトの操作
+      // var test = document.getElementsByTagName("div");
+      // test[0].style.color = "blue";
+      // test[0].style.fontSize = "30px";
+      // test[0].style.backgroundColor = "pink";
+      
+      // var test = document.getElementsByTagName("body");
+      // console.log(test[0].children[0].innerHTML);//テスト
+    </script>
+  </body>
+
+</html>

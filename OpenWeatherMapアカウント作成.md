@@ -69,11 +69,10 @@ OpenWeatherアカウント作成から天気データ取得まで
 8. 収集データ説明
 
  - 上から順にざっくり説明すると、以下の通りになります。
-   (https://openweathermap.org/currentより抜粋)
-   - キー	説明
+   (https://openweathermap.org/current  より抜粋)
    - coord	緯度、経度
-   - main	気温、湿度、気圧、最低気温、最高気温、etc
+   - main	気温、湿度、気圧、最低気温、最高気温　など
    - wind	風速、風向き
    - clouds	曇りの確率
-   - sys	国コードや日の出時刻、日の入り時刻 etc
+   - sys	国コードや日の出時刻、日の入り時刻　など
 

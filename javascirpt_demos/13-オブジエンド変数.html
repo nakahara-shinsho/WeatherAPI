@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!-- HTML5の文書であることを示す -->
+<html lang="ja"> <!-- 日本語のページであることを示す -->
+  <head>
+    <title>11-Javascript基本知識</title>
+    <meta charset="utf-8"> <!-- 日本語文字コードを指定 -->
+    <script>
+      // オブジェクトの宣言
+      var user1 = Object(); // new Object(); 或いは {}; でも可
+      // プロパティの追加
+      user1.name = "山田太郎";
+      user1.age = 20;
+
+      document.write(user1.name + "さんは" + user1.age + "歳です。");
+
+      // プロパティの変更
+      user1.name = "山田花子";
+      // プロパティの追加
+      user1.hobby = "読書";
+      // プロパティの削除
+      delete user1.hobby;
+
+      // オブジェクトの宣言(初期値を設定)
+      var user2 = {name: "山田花子", age: 18};
+
+      document.write("<br>");
+      document.write(user2.name + "さんは" + user2.age + "歳です。");
+
+      // メソッドの追加
+      user2.hello = function(){
+        document.write("<br>");
+        document.write("こんにちは！");
+      }
+
+      // メソッドの呼び出し
+      user2.hello();
+      
+    </script>
+  </head>
+  <body></body>
+
+</html>
