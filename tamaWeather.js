@@ -4,12 +4,12 @@ var owmURL = "http://api.openweathermap.org/data/2.5/weather?q="
            + cityName +",jp&lang=ja&APPID="+ owmApiKey +""; //URL変数宣言
 
 //一回目の天気情報設定
-updateData(); 
+updateWeatherData(); 
 
 //データ更新関数を1分ごとに呼び出し
-setInterval(updateData, 60000); //データ更新関数を呼び出し
+setInterval(updateWeatherData, 60000); //データ更新関数を呼び出し
 
-function updateData() { //データ更新関数
+function updateWeatherData() { //データ更新関数
   //データを表示する行の要素を呼び出し（複数タグがあり得るため、インデックスは0から始まる）
   tblBody = document.getElementsByClassName("fixed-row-0")[0]
 
