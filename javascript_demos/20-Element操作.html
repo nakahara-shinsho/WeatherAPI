@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- HTML5の文書であることを示す -->
+<html lang="ja"> <!-- 日本語のページであることを示す -->
+  <head>
+    <title>Javascript基本知識</title>
+    <meta charset="utf-8"> <!-- 日本語文字コードを指定 -->
+    
+  </head>
+  <body>
+    <div id="tamaWeather" class="table-wrapper">こんにちは</div>
+    <script>
+      // Documentオブジェクトの操作
+      var test = document.getElementById("tamaWeather");
+      document.write("innerHTML: "+  test.innerHTML + "<br>"); // innerHTMLを表示
+      
+      // test.getAttribute("class"); // class属性を取得
+      // document.write("class属性: " + test.getAttribute("class") + "<br>"); // class属性を表示
+
+      // test.setAttribute("style", "color:red"); // class属性を変更
+      // test.setAttribute("style", "color:red; background-color:green"); // class属性を変更
+      
+      test.style.fontSize ="30px"; // style属性を変更
+      test.style.color = "red"; // style属性を変更
+      test.style.backgroundColor = "yellow"; // style属性を変更
+      
+
+
+
+    </script>
+  </body>
+
+</html>
