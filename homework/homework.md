@@ -1,3 +1,6 @@
+# javascript基本知識を復習
+- javascript_demosの下の練習を改修して、結果を確認してください。
+- 改修したコードをgithubのclassroomで共有する。（締め切りか次の授業の前）
 
 # 課題１： 郵便番号に指定する場所の天気情報を取得する
 - url = "https://api.openweathermap.org/data/2.5/weather?zip={郵便番号}&units=metric&appid={API_key}"
