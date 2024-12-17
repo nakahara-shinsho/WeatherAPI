@@ -1,4 +1,4 @@
-# javascript基本知識を復習
+# 復習：　javascript基本知識
 - javascript_demosの下の練習を改修して、結果を確認してください。
 - 改修したコードをgithubのclassroomで共有する。（締め切りか次の授業の前）
 
